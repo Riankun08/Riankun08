@@ -31,9 +31,29 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <style type="text/css">
+        
+        #animasi-teks{
+            font-size: 60px ;
+            width: 100%;
+            white-space: nowrap;
+            overflow:hidden;
+            -webkit-animation: typing 5s steps(70,end);
+            animation: animasi-ketik 5s steps(70,end);
+        }
 
+        @keyframes animasi-ketik{
+            form {width: 0;}
+        }
+
+        @-webkit-keyframes animasi-ketik{
+            form {width: 0;}   
+        }
+
+    </style>
 </head>
 
 <body id="top">
@@ -43,7 +63,7 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.html"><img src="images/logo2.png" alt="Homepage"></a>
+            <p class="footer-site-logo" href="#0" style="width:100%; margin:2px;font-size: 35px; font-family: arial; color: white;">Muhamad Rian Saputra</p>
         </div>
 
         <nav class="header-nav-wrap">
@@ -73,11 +93,12 @@
 
                 <h3>Halo</h3>
 
-                <h1>
+                <h1 id="animasi-teks">
                     Saya Rian Saputra. <br>
                     Saya Seorang Web  <br>
                     Sistem Developer.
                 </h1>
+            
 
                 <div class="home-content__buttons">
                     <a href="#works" class="smoothscroll btn btn--stroke">
@@ -143,28 +164,24 @@
 
                 <ul class="skill-bars">
                     <li>
-                    <div class="progress percent90"><span>90%</span></div>
+                    <div class="progress percent80"><span>80%</span></div>
                     <strong>HTML5</strong>
                     </li>
                     <li>
-                    <div class="progress percent85"><span>80%</span></div>
-                    <strong>CSS3</strong>
+                    <div class="progress percent70"><span>70%</span></div>
+                    <strong>CSS</strong>
                     </li>
                     <li>
-                    <div class="progress percent70"><span>80%</span></div>
+                    <div class="progress percent60"><span>60%</span></div>
                     <strong>JQuery</strong>
                     </li>
                     <li>
-                    <div class="progress percent90"><span>90%</span></div>
+                    <div class="progress percent70"><span>70%</span></div>
                     <strong>PHP</strong>
                     </li>
                     <li>
-                    <div class="progress percent90"><span>90%</span></div>
+                    <div class="progress percent80"><span>80%</span></div>
                     <strong>Framework Laravel</strong>
-                    </li>   
-                    <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Angular JS</strong>
                     </li>   
                 </ul>
             </div>
@@ -174,10 +191,10 @@
         <div class="row about-content about-content--buttons">
 
             <div class="col-six tab-full left">
-                <a href="#0" class="btn btn--primary full-width">Download My CV</a>
+                <a href="cv/rian.pdf" class="btn btn--primary full-width">Download CV Saya</a>
             </div>
             <div class="col-six tab-full right">
-                <a href="#0" class="btn full-width">Hire Me Now</a>
+                <a href="#contact" class="btn full-width">Disini Saya sekarang</a>
             </div>
 
         </div> <!-- end about-content buttons -->
@@ -194,12 +211,12 @@
                     <div class="timeline__block">
                         <div class="timeline__bullet"></div>
                         <div class="timeline__header">
-                            <p class="timeline__timeframe">Agustus 2019 - Present</p>
+                            <p class="timeline__timeframe">Agustus 2019 - September 2019</p>
                             <h3>Developer Web</h3>
                             <h5>Back End</h5>
                         </div>
                         <div class="timeline__desc">
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            <p>Pengalaman bekerja saya sebagai Back end developer dari Agustus 2019 - September 2019.</p>
                         </div>
                     </div> <!-- end timeline__block -->
 
@@ -207,11 +224,11 @@
                         <div class="timeline__bullet"></div>
                         <div class="timeline__header">
                             <p class="timeline__timeframe">Oktober 2019 - November 2019</p>
-                            <h3>Software Enginering</h3>
+                            <h3>Security Enginering</h3>
                             <h5>System</h5>
                         </div>
                         <div class="timeline__desc">	
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                            <p>Pengalaman bekerja saya sebagai security enginering dari Oktober 2019 - November 2019.</p>
                         </div>
                     </div> <!-- end timeline__block -->
 
@@ -229,19 +246,19 @@
                             <h5>Front End</h5>
                         </div>
                         <div class="timeline__desc">
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            <p>Pengalaman bekerja saya sebagai Front end developer dari November 2019 - Desember 2019.</p>
                         </div>
                     </div> <!-- end timeline__block -->
 
                     <div class="timeline__block">
                         <div class="timeline__bullet"></div>
                         <div class="timeline__header">
-                            <p class="timeline__timeframe">July 2011 - June 2012</p>
+                            <p class="timeline__timeframe">Januari 2020 - Februari 2020</p>
                             <h3>Design Web</h3>
                             <h5>UI & UX</h5>
                         </div>
                         <div class="timeline__desc">
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                            <p>Pengalaman bekerja saya sebagai UI & UX dari Januari 2020 - Februari 2020.</p>
                         </div>
                     </div> <!-- end timeline__block -->
 
@@ -304,19 +321,19 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-lighthouse.jpg" class="thumb-link" title="Lighthouse" data-size="1050x700">
-                                <img src="images/portfolio/lighthouse.jpg" 
-                                     srcset="images/portfolio/lighthouse.jpg 1x, images/portfolio/lighthouse@2x.jpg 2x" alt="">
+                            <a href="https://id-id.facebook.com/" class="thumb-link" title="Facebook" data-size="1050x700">
+                                <img src="images/portfolio/koko.jpg" 
+                                     srcset="images/portfolio/koko.jpg 1x, images/portfolio/koko.jpg 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Lighthouse
+                                Facebook
                             </h3>
                             <p class="item-folio__cat">
-                                Web Design
+                                Web System || Security Enginering
                             </p>
                         </div>
 
@@ -335,19 +352,19 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/salad.jpg" 
-                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                            <a href="https://www.instagram.com/accounts/login/?hl=id" title="Instagram" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/kk.jpg" 
+                                     srcset="images/portfolio/kk.jpg 1x, images/portfolio/kk@2x.jpg 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Salad
+                                Instagram
                             </h3>
                             <p class="item-folio__cat">
-                                Branding
+                                Web System || Security Enginering
                             </p>
                         </div>
 
@@ -366,19 +383,19 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/woodcraft.jpg"
-                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            <a href="https://www.youtube.com/" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/yt.jpg"
+                                     srcset="images/portfolio/yt.jpg 1x, images/portfolio/yt@2x.jpg 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Woodcraft
+                                Youtube
                             </h3>
                             <p class="item-folio__cat">
-                                Branding
+                                Web Design || UI & UX
                             </p>
                         </div>
 
@@ -393,132 +410,6 @@
                     </div> <!-- end item-folio -->
                 </div> <!-- end masonry__brick -->
 
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/skaterboy.jpg"
-                                     srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Skaterboy
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Development
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/liberty.jpg"
-                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Liberty
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-minimalismo.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/minimalismo.jpg"
-                                     srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Minimalismo
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/shutterbug.jpg"
-                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Lady Shutterbug
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-            </div>
-        </div> <!-- end masonry -->
 
     </section> <!-- end works -->
 
@@ -628,8 +519,8 @@
                         <textarea name="pesan" id="contactMessage" placeholder="pesan" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
                     <div class="form-field">
-                        <button type="submit" name="submit" class="full-width btn--primary">Submit</button>
-                        <!-- <input type="submit" name="submit" class="full-width btn--primary" value="Submit"> -->
+                        <button type="submit" name="kirim" class="full-width btn--primary">Submit</button>
+                        
                         <div class="submit-loader">
                             <div class="text-loader">Sending...</div>
                             <div class="s-loader">
@@ -685,7 +576,7 @@
             <div class="col-full">
 
                 <div class="footer-logo">
-                    <a class="footer-site-logo" href="#0"><img src="images/logo2.png" alt="Homepage" ></a>
+                    <p class="footer-site-logo" href="#0" style="width:100%;font-size: 70px; font-family: times new roman; color: white;">Developer</p>
                 </div>
 
                 <ul class="footer-social">
@@ -773,6 +664,16 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+        window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("header-nav-wrap").style.top = "0";
+              } else {
+                document.getElementById("header-nav-wrap").style.top = "-50px";
+              }
+            }
+    </script>
 
 </body>
 
